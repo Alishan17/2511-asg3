@@ -218,13 +218,13 @@ figure {
     font-size: xx-large;
     font-family: Tahoma;
     justify-content: center;
-    padding-left: 155px;
+    padding-left: 180px;
 }
 .phrase {
     color: var(--primaryColor);
     font-size: medium;
     justify-content: center;
-    padding-left: 105px;
+    padding-left: 120px;
     font-family: Tahoma;
 }
 
