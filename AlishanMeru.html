@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="fluid">
+    <head>
+        <!--- This is the website hompage which introduces the movie with trailer, cast, and profile --->
+        <title>Home</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Alishan Meru">
+        <meta name="keywords" content="resume, html, programming, css, Alishan Meru, coding">
+        <meta name="author" content="Alishan Meru">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href=".../style/reset.css"/>
+        <link rel="stylesheet" href="./style/homepage.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <a id="topOfPage"></a>
+        <nav class="navigation">
+            <div class="dropdown">
+                <button class="dropbtn">Menu 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                      <a href="#Skills">Skills</a>
+                      <a href="#WorkExperience">Work Experience</a>
+                      <a href="#candp">Courses & Projects</a>
+                      <a href="#Contact">Contact Me</a>
+                </div>
+            </div> 
+        </nav>
+        <div class="sec">
+            <p class="quote">Hi, I'm Alishan.</p>
+            <p class="phrase">A BCIS Student @ MRU who loves programming.</p>
+            <figure>
+                <img id="face" src="./images/IMG_4365.jpg" alt="selfie" width="220">
+            </figure>
+        </div>
+        <div class="mainContent">
+            <div id="Skills" class="Skill-Section">
+                <section>
+                    <h3 class="skillsTitle">Skills</h3>
+                    <h2></h2>
+                    <p class="pSkills">HTML</p>
+                    <div class="container">
+                      <div class="skills html">85%</div>
+                    </div>
+                    
+                    <p class="pSkills">CSS</p>
+                    <div class="container">
+                      <div class="skills css">80%</div>
+                    </div>
+                    
+                    <p class="pSkills">JavaScript</p>
+                    <div class="container">
+                      <div class="skills js">65%</div>
+                    </div>
+                    
+                    <p class="pSkills">Microsoft Excel</p>
+                    <div class="container">
+                      <div class="skills php">70%</div>
+                    </div>
+                </section>
+            </div>
+            <div id="WorkExperience" class="wE">
+                <article class="WEAll">
+                    <h6>Work Experience</h6>                    
+                    <h5 class="work">- Warehouse associate @ Inspired Go, 09/2021 - Present</h5>
+                       
+                        <p class="workInfo">
+                        Packing, counting, and sorting packaged salads
+                        Organizing and handling data in Microsoft excel
+                        </p>
+                        <h5 class="work">- Delivery Driver @ Inspired Go 06/2021 - Present</h5>
+                       
+                        <p class="workInfo">
+                        Handling and delivering packaged salads to customer's homes.
+                        </p>
+                        <h5 class="work">- Sales Advisor @ Costco 09/2020 - 08/2021</h5>
+                       
+                        <p class="workInfo">
+                        Promoting sales, preparing food demonstrations.
+                        </p>
+                </article>
+            </div> 
+            <div id="candp" class="info">
+                <article>
+                    <h6> Courses and Projects</h6>
+                    <h5 class="work">- COMP 1502 - Programming II: Object Oriented Programming</h5>
+                       
+                        <p class="workInfo">
+                            Java project to implement a system to manage toys
+                            efficiently. The system allows customers to find, purchase, and list toys. The system also allows the employees to add
+                            or remove a toy from the database.
+                        </p>
+                        <h5 class="work">- COMP 2511 - Web I: Client Development</h5>
+                       
+                        <p class="workInfo">
+                            Creating a HTML website about a film that follows many
+                            CSS and responsive design requirements.
+                        </p>
+                        <h5 class="work">- COMP 1501 - Programming I: Introduction to Problem Solving and Programming</h5>
+                </article>
+            </div>
+            <div class="video">
+                <article class="trailer">
+                    <h6 style="color: darkgoldenrod;">Related Video</h6>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/hb7Q33ysCwI">
+                    </iframe>
+                </article>
+            </div>
+        </div>
+        <div id="Contact" class="Contact">
+            <h1>Contact Me</h1>
+        <main>
+        <form method="post" action="mailto:yourEmail@domainName.ca">
+        <fieldset>
+        <label for="subject">Name:
+            <input type="text" name="subject" maxlength="50" required id="subject">
+        </label>
+        <label for="email">Email:
+            <input type="email" name="email" placeholder="name@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required id="email">
+        </label>
+        <p>
+            <label>Message:
+                <textarea name="Inquiry" rows="5" cols="25" required></textarea> 
+            </label>
+        </p>
+        <label for="phone">Phone:
+            <input type="tel" name="telephone" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" id="phone">
+        </label>
+        
+        <label for="date">Date:
+            <input type="date" name="date" id="date">
+        </label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+        </form>
+    </main> 
+        </div>
+        <footer>2022 Alishan Meru;
+            <a href="#topOfPage" style="color: rgb(255, 255, 255);">Back to top of page</a>
+        </footer>
+    </body>
+</html>
